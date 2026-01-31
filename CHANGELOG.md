@@ -21,3 +21,7 @@ All notable changes to this project will be documented in this file.
 - Make navigation map fully markdown-only
 - Remove navigation map render command
 - Align installer help with `.agent` default
+
+## [0.0.4] - 2026-01-31
+
+- Add Mermaid label line-break guidance for navigation maps

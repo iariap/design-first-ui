@@ -25,3 +25,4 @@ The navigation map defines the global flow between screens.
 - Use Mermaid flowcharts inside the markdown file.
 - Use color to encode meaning (e.g., auth, public, errors).
 - Colors must meet WCAG contrast standards against the background.
+- Use `<br/>` for line breaks inside edge labels (Mermaid does not accept `\n`).
