@@ -14,3 +14,4 @@
 - UI mock uses tokens only
 - No upstream fixes done in final mock
 - Final mock is implementable without interpretation
+- Change requests are classified and resolved upstream

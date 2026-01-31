@@ -48,6 +48,7 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 - Rules to enforce the design-first workflow
 - Commands to scaffold and validate screens
 - Commands to scaffold and validate global artifacts (01/02)
+- Command to classify change requests (prevent patching the final mock)
 - Skills to guide each step in the workflow
 - Docs that define the system, tokens, and QA bar
 

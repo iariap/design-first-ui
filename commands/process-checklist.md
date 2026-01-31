@@ -11,3 +11,4 @@ Print the quality gate for a completed screen.
 - UI mock is token-constrained
 - Final mock is implementable without interpretation
 - No system redefinition in screen files
+- Change requests are classified and resolved upstream

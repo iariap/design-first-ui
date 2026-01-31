@@ -39,6 +39,22 @@ Screens inherit the system; they do not redefine it.
 - Fix errors upstream, never in the final mock.
 - Screens inherit the system; they do not redefine it.
 
+## Change classification
+
+All change requests must be classified before any edits are made. Manual edits to final mock files are not allowed because they hide the root cause.
+
+Classify the change by where the fix belongs:
+
+- **System change:** Update the global canvas or token system when the issue is systemic (spacing scale, layout grid, global constraints).
+- **Screen structure:** Update `03_structure.md` when the information hierarchy or flow is wrong.
+- **Screen layout:** Update `04_wireframe.md` when the layout or placement is wrong.
+- **Canvas mapping:** Update `05_canvas_applied.md` when the canvas mapping is wrong without changing layout.
+- **Mock output:** Update `06_ui_mock.md` only when all upstream artifacts are correct and the issue is in the final visual description.
+
+If a UI defect is observed (e.g., overlap, truncation, spacing), trace it upstream and fix the earliest artifact that caused it.
+
+After fixing upstream, propagate the change downstream so all dependent artifacts stay consistent.
+
 ## Completion criteria
 
 A screen is complete when:
