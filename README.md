@@ -55,6 +55,22 @@ Example prompts (plain language):
 - Global artifacts (required before screens): `01_canvas_system.md`, `02_ui_tokens.md`, `02a_navigation_map.md`
 - Screen workflow (in order): `03_structure.md`, `04_wireframe.md`, `05_canvas_applied.md`, `06_ui_mock.md`
 
+## Kickoff (before the system)
+
+Start with thorough product discovery so the system is grounded in real needs.
+
+Suggested kickoff steps:
+
+- Research the problem space thoroughly (competitors, alternatives, adjacent tools)
+- Gather pain points thoroughly (forums, reviews, support tickets, interviews)
+- Define the product name and persona (tone, values, audience)
+- Capture a short product brief (target users, jobs-to-be-done, constraints)
+
+Outcome:
+
+- A clear problem statement and persona to guide the canvas, tokens, and navigation map
+- Evidence-backed insights that justify the system decisions
+
 ## Change classification
 
 - Classify every change request before edits.
