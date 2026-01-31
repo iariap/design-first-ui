@@ -29,3 +29,4 @@ All notable changes to this project will be documented in this file.
 ## [0.0.5] - 2026-01-31
 
 - Add guidance for self-loop label visibility in Mermaid maps
+- Allow update without existing lock file
