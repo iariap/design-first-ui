@@ -130,6 +130,29 @@ Suggested skills:
 
 Releases contain only the installable folders: `rules/`, `commands/`, `skills/`, `docs/`.
 
+## References (inspiration)
+
+Books (Design Systems & UI)
+- "Design Systems" — Alla Kholmatova
+- "Designing Design Systems" — Nathan Curtis
+- "Laws of UX" — Jon Yablonski
+- "About Face: The Essentials of Interaction Design" — Alan Cooper, Robert Reimann, David Cronin, Christopher Noessel
+- "Refactoring UI" — Adam Wathan, Steve Schoger
+
+Books (Research & Product Discovery)
+- "The Mom Test" — Rob Fitzpatrick
+- "Continuous Discovery Habits" — Teresa Torres
+- "Lean UX" — Jeff Gothelf, Josh Seiden
+- "Jobs to Be Done" — Tony Ulwick
+- "The User Experience Team of One" — Leah Buley
+
+Guides and standards
+- Material Design: https://m3.material.io/
+- Apple Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/
+- GOV.UK Design System: https://design-system.service.gov.uk/
+- Nielsen Norman Group: https://www.nngroup.com/articles/
+- WCAG: https://www.w3.org/WAI/standards-guidelines/wcag/
+
 ## Install
 
 ```sh
