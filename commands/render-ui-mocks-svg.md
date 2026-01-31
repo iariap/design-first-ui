@@ -10,10 +10,12 @@ Generate SVG UI mocks for all screens using the design system.
 
 ## Output
 
-- One SVG per screen, saved alongside each screen folder
+- One SVG per screen, saved to `design/renders/` with a stable name
+- Naming: `<screen-slug>.svg` (e.g., `checkout.svg`)
 
 ## Notes
 
 - Use the system tokens for all values.
 - Do not invent styles outside the system.
 - Keep SVGs buildable and consistent with the mocks.
+- If SVG mocks exist, regenerate them after any upstream change.
