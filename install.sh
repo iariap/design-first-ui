@@ -160,7 +160,7 @@ do_install() {
   fi
 
   if command -v curl >/dev/null 2>&1; then
-    curl -fsSL -o "$ARCHIVE_PATH" "$DOWNLOAD_URL"
+    curl -fsSL -L -o "$ARCHIVE_PATH" "$DOWNLOAD_URL"
   elif command -v wget >/dev/null 2>&1; then
     wget -q -O "$ARCHIVE_PATH" "$DOWNLOAD_URL"
   else

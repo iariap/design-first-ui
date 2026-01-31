@@ -44,3 +44,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.8] - 2026-01-31
 
 - Clarify behavior changes must update upstream artifacts before code
+
+## [0.0.9] - 2026-01-31
+
+- Improve installer tarball download reliability (follow redirects)
