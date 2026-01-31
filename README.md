@@ -106,6 +106,47 @@ Suggested skills:
 - Fix the earliest artifact that introduced the issue
 - Propagate the update downstream to keep artifacts consistent
 
+## Example flow (LLM interaction)
+
+Use this flow to keep the system consistent and avoid manual patches.
+
+### A) Start a new screen
+
+1. Ask the LLM to scaffold the screen files.
+2. Ask the LLM to fill each step in order.
+
+Example prompts:
+
+- "Use `commands/create-screen.md` to scaffold `design/screens/checkout/`"
+- "Using `skills/design-first.structure.md`, write `03_structure.md` for checkout"
+- "Using `skills/design-first.wireframe.md`, write `04_wireframe.md` for checkout"
+- "Using `skills/design-first.canvas-applied.md`, write `05_canvas_applied.md` for checkout"
+- "Using `skills/design-first.ui-mock.md`, write `06_ui_mock.md` for checkout"
+
+### B) Fix a layout issue (overlap)
+
+1. Ask the LLM to classify the change.
+2. Fix the earliest upstream artifact.
+3. Propagate downstream updates.
+
+Example prompts:
+
+- "Classify this issue using `commands/classify-change.md`: buttons overlap on mobile"
+- "Update `04_wireframe.md` to resolve the overlap"
+- "Propagate updates to `05_canvas_applied.md` and `06_ui_mock.md`"
+
+### C) Adjust the spacing scale
+
+1. Classify as a system change.
+2. Update `02_ui_tokens.md`.
+3. Propagate downstream across screens.
+
+Example prompts:
+
+- "Classify this change: increase base spacing from 4px to 5px"
+- "Update `02_ui_tokens.md` and summarize impact"
+- "Propagate token changes to all affected screens' `05_canvas_applied.md` and `06_ui_mock.md`"
+
 ## Release artifacts
 
 Releases contain only the installable folders: `rules/`, `commands/`, `skills/`, `docs/`.
