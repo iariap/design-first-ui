@@ -22,6 +22,12 @@ Classification and propagation are internal steps; the user only describes the i
 
 Always update in artifact order: 03 → 04 → 05 → 06 → implementation. Never edit a downstream artifact before its immediate upstream is updated.
 
+## Change impact checklist
+
+- Screens affected
+- Navigation flows affected
+- Tokens or component inventory changes
+
 ## Rule of thumb
 
 Always fix the earliest artifact that introduced the issue.

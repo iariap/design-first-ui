@@ -19,6 +19,7 @@ Validate that the global system artifacts exist and are consistent.
 - Token categories match the canvas constraints
 - No project-specific overrides are embedded in the global system
 - Navigation map includes every navigable use case
+- Navigation map includes a screen registry mapping nodes to folders
 
 ## Output
 

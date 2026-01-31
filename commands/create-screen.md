@@ -32,6 +32,7 @@ design/screens/<screen>/
 - User goal
 - Information hierarchy
 - Key constraints from the system
+- States (loading, empty, error, disabled)
 
 ### 04_wireframe.md
 
@@ -50,6 +51,7 @@ design/screens/<screen>/
 - Static UI mock description
 - Token-constrained
 - Implementable without interpretation
+- Accessibility pass (contrast, focus, error states)
 
 ## Notes
 

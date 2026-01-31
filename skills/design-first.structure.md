@@ -24,6 +24,7 @@ Produce `03_structure.md` with:
 - Primary interactions
 - Data or content blocks
 - System constraints that impact layout
+- States (loading, empty, error, disabled)
 
 ## Constraints
 

@@ -18,3 +18,4 @@
 - Change requests are classified and resolved upstream
 - Downstream artifacts are updated after upstream changes
 - SVG UI mocks are regenerated after changes
+- Accessibility pass recorded in UI mock

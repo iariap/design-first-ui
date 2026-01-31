@@ -22,3 +22,10 @@ All notable changes to this project will be documented in this file.
 ## [0.0.4] - 2026-01-31
 
 - Define “navigable full screen” as a full-page nav map node
+
+## [0.0.5] - 2026-01-31
+
+- Add step acceptance criteria and accessibility/state requirements
+- Add discovery notes and component inventory docs
+- Add nav map screen registry guidance and validation
+- Add change impact checklist

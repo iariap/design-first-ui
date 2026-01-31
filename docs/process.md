@@ -12,12 +12,21 @@ These must exist before any screen work begins:
 
 Screens inherit the system; they do not redefine it.
 
+## Discovery notes
+
+Capture discovery notes in `docs/discovery-notes.md` before defining the system.
+
+## Component inventory
+
+Maintain canonical components in `docs/component-inventory.md` and prefer reuse.
+
 ## Per-screen workflow (in order)
 
 1) `03_structure.md`
    - Screen purpose
    - User goal
    - Information hierarchy
+   - States (loading, empty, error, disabled)
 
 2) `04_wireframe.md`
    - Low-fidelity layout
@@ -33,6 +42,7 @@ Screens inherit the system; they do not redefine it.
    - Static UI mock description
    - Token-constrained
    - Implementable without interpretation
+   - Accessibility pass (contrast, focus, error states)
 
 ## Rules
 
@@ -43,6 +53,35 @@ Screens inherit the system; they do not redefine it.
 - Overlays and modals are designed inside the parent screen’s 03–06 artifacts.
 - Only navigable full screens get a dedicated per-screen folder with 03–06.
 - “Navigable full screen” means a full-page/view node in the navigation map, not an overlay state.
+- Prefer components from the component inventory; add new ones only when reusable.
+
+## Step acceptance criteria
+
+### 03_structure.md (done when)
+
+- Screen purpose and user goal are explicit
+- Information hierarchy is ordered
+- Primary interactions and states are listed
+- Data or content blocks are enumerated
+
+### 04_wireframe.md (done when)
+
+- Layout matches structure with no visuals
+- Component placement is unambiguous
+- Spatial relationships are clear
+
+### 05_canvas_applied.md (done when)
+
+- Wireframe layout is unchanged
+- Canvas rules and breakpoints are applied
+- Container/grid usage is explicit
+
+### 06_ui_mock.md (done when)
+
+- All values use tokens
+- States are described (loading/empty/error/disabled)
+- Accessibility pass recorded (contrast/focus/errors)
+- Mock is implementable without interpretation
 
 ## Change classification
 

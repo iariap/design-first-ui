@@ -21,6 +21,7 @@ Produce `06_ui_mock.md` with:
 - Visual description constrained by tokens
 - Component states and hierarchy
 - Fully implementable details
+- Accessibility pass (contrast, focus, error states)
 
 ## Constraints
 
