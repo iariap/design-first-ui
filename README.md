@@ -115,13 +115,13 @@ Use this flow to keep the system consistent and avoid manual patches.
 1. Ask the LLM to scaffold the screen files.
 2. Ask the LLM to fill each step in order.
 
-Example prompts (plain language is fine; explicit references improve reliability):
+Example prompts (plain language):
 
-- "Use `commands/create-screen.md` to scaffold `design/screens/checkout/`"
-- "Using `skills/design-first.structure.md`, write `03_structure.md` for checkout"
-- "Using `skills/design-first.wireframe.md`, write `04_wireframe.md` for checkout"
-- "Using `skills/design-first.canvas-applied.md`, write `05_canvas_applied.md` for checkout"
-- "Using `skills/design-first.ui-mock.md`, write `06_ui_mock.md` for checkout"
+- "Scaffold the screen files for checkout under design/screens/checkout/"
+- "Write 03_structure.md for checkout"
+- "Write 04_wireframe.md for checkout"
+- "Write 05_canvas_applied.md for checkout"
+- "Write 06_ui_mock.md for checkout"
 
 ### B) Fix a layout issue (overlap)
 
@@ -129,11 +129,11 @@ Example prompts (plain language is fine; explicit references improve reliability
 2. Fix the earliest upstream artifact.
 3. Propagate downstream updates.
 
-Example prompts (plain language is fine; explicit references improve reliability):
+Example prompts (plain language):
 
-- "Classify this issue using `commands/classify-change.md`: buttons overlap on mobile"
-- "Update `04_wireframe.md` to resolve the overlap"
-- "Propagate updates to `05_canvas_applied.md` and `06_ui_mock.md`"
+- "Classify this issue: buttons overlap on mobile"
+- "Update 04_wireframe.md to resolve the overlap"
+- "Propagate updates to 05_canvas_applied.md and 06_ui_mock.md"
 
 ### C) Adjust the spacing scale
 
@@ -141,11 +141,11 @@ Example prompts (plain language is fine; explicit references improve reliability
 2. Update `02_ui_tokens.md`.
 3. Propagate downstream across screens.
 
-Example prompts (plain language is fine; explicit references improve reliability):
+Example prompts (plain language):
 
 - "Classify this change: increase base spacing from 4px to 5px"
-- "Update `02_ui_tokens.md` and summarize impact"
-- "Propagate token changes to all affected screens' `05_canvas_applied.md` and `06_ui_mock.md`"
+- "Update 02_ui_tokens.md and summarize impact"
+- "Propagate token changes to all affected screens' 05_canvas_applied.md and 06_ui_mock.md"
 
 ## Release artifacts
 
