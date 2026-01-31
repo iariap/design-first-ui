@@ -16,6 +16,7 @@ Classification and propagation are internal steps; the user only describes the i
 - Overlapping elements: usually a structure or layout issue, fix in `03_structure.md` or `04_wireframe.md`.
 - Wrong spacing scale: system issue, fix in `02_ui_tokens.md`.
 - Canvas mapping mismatch: fix in `05_canvas_applied.md`.
+- Behavior change (e.g., share dialog vs clipboard, new toast message): update `03_structure.md` (primary interactions) and `06_ui_mock.md` before implementation.
 
 ## Rule of thumb
 

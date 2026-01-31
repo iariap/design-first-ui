@@ -58,6 +58,8 @@ If a UI defect is observed (e.g., overlap, truncation, spacing), trace it upstre
 After fixing upstream, propagate the change downstream so all dependent artifacts stay consistent.
 The change is not complete until every downstream artifact is updated.
 
+Behavior changes are part of the spec. If user-visible behavior changes (flows, mechanisms, toasts, dialogs), classify it and update upstream artifacts (structure/mock) before implementation.
+
 If SVG UI mocks exist, regenerate them after any upstream change.
 
 ## Completion criteria

@@ -40,3 +40,7 @@ All notable changes to this project will be documented in this file.
 
 - Add Cursor metadata headers to rules, commands, and skills
 - Improve descriptions for better automatic selection
+
+## [0.0.8] - 2026-01-31
+
+- Clarify behavior changes must update upstream artifacts before code

@@ -46,3 +46,5 @@ This process is transparent to the user; they only describe the issue or goal.
 
 After fixing upstream, update downstream artifacts to keep the chain consistent.
 Do not consider a change complete until every dependent step has been updated.
+
+User-visible behavior changes (flows, mechanisms, toasts, dialogs) must be classified and reflected in structure and mock artifacts before code changes.
