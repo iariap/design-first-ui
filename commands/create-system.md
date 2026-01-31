@@ -44,6 +44,7 @@ design/system/
 - Global screen list
 - Flow connections
 - Authenticated vs unauthenticated paths
+- Every navigable use case (including error, empty, and edge flows)
 
 ### 02a_navigation_map.mmd
 

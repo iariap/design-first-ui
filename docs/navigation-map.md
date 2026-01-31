@@ -14,6 +14,7 @@ The navigation map defines the global flow between screens.
 - Edges: navigation actions and conditions
 - Entry points and exits
 - Authenticated vs unauthenticated flows
+- Every navigable use case (including error, empty, and edge flows)
 
 ## Output format
 
