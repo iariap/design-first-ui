@@ -10,3 +10,4 @@ All notable changes to this project will be documented in this file.
 - Mermaid navigation map guidance (WCAG-aware colors)
 - SVG UI mock rendering command and refresh rules
 - Example LLM interaction flow
+- Default install directory set to `.agent`
