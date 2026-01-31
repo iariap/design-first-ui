@@ -18,7 +18,8 @@ The navigation map defines the global flow between screens.
 
 ## Output format
 
-- `02a_navigation_map.md` (text description and Mermaid diagram)
+- **Single file:** `02a_navigation_map.md` (text description and Mermaid diagram).
+- Do **not** create `02a_navigation_map.mmd` or any separate Mermaid source file; embed the diagram in the markdown in a fenced code block (e.g. ` ```mermaid `).
 
 ## Diagram standard
 
@@ -26,3 +27,4 @@ The navigation map defines the global flow between screens.
 - Use color to encode meaning (e.g., auth, public, errors).
 - Colors must meet WCAG contrast standards against the background.
 - Use `<br/>` for line breaks inside edge labels (Mermaid does not accept `\n`).
+- If a node has multiple self-loop edges, add a comment node to disambiguate labels and ensure all transitions are visible.
