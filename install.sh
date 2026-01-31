@@ -187,7 +187,7 @@ do_install() {
 
   rm -rf "$TMPDIR"
 
-  echo "Installed design-first-ui bundle to $TARGET_DIR"
+  echo "Installed design-first-ui bundle to $TARGET_DIR (version $VERSION)"
 }
 
 main() {
