@@ -34,3 +34,4 @@ All notable changes to this project will be documented in this file.
 ## [0.0.6] - 2026-01-31
 
 - Rename lock file to `.design-first-ui.lock`
+- Allow install into existing target directory
