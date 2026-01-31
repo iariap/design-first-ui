@@ -35,6 +35,7 @@ These rules define a system-first, design-first workflow that must be followed f
 - Overlays and modals are designed inside the parent screen’s 03–06 artifacts; only navigable full screens get their own per-screen folder.
 - Step 05 does not change wireframe layout; applying canvas breakpoint/responsive rules is allowed.
 - Prefer components from the component inventory; add new ones only when reusable.
+- Treat design docs as source of truth. Do not add UI features in code without updating upstream artifacts first.
 
 ## Change classification
 

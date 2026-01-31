@@ -29,3 +29,7 @@ All notable changes to this project will be documented in this file.
 - Add discovery notes and component inventory docs
 - Add nav map screen registry guidance and validation
 - Add change impact checklist
+
+## [0.0.6] - 2026-01-31
+
+- Require upstream design artifacts before implementation

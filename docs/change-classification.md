@@ -28,6 +28,8 @@ Always update in artifact order: 03 → 04 → 05 → 06 → implementation. Nev
 - Navigation flows affected
 - Tokens or component inventory changes
 
+If a UI feature exists in code but not in design docs, treat it as a process violation and update upstream artifacts before implementation changes proceed.
+
 ## Rule of thumb
 
 Always fix the earliest artifact that introduced the issue.

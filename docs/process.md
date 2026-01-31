@@ -55,6 +55,16 @@ Maintain canonical components in `docs/component-inventory.md` and prefer reuse.
 - “Navigable full screen” means a full-page/view node in the navigation map, not an overlay state.
 - Prefer components from the component inventory; add new ones only when reusable.
 
+## Upstream before implementation
+
+Before implementing any new screen, flow, or UI feature (new section, component, chart, list), update the relevant upstream artifacts first:
+
+- Navigation map (screens, flows, entry points)
+- The affected screen’s structure doc (purpose, hierarchy, data blocks, interactions)
+- Wireframe, canvas applied, and UI mock (if used)
+
+Then implement in code so it matches the updated design. If a design folder exists (e.g. design/screens/, design/system/), treat those files as the source of truth for UI.
+
 ## Step acceptance criteria
 
 ### 03_structure.md (done when)
