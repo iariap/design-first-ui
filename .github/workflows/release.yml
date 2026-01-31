@@ -30,9 +30,8 @@ jobs:
           tar -czf "design-first-ui-bundle-${TAG_NAME}.tar.gz" \
             rules commands skills docs
 
-      - name: Create GitHub release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ env.TAG_NAME }}
-          files: |
-            design-first-ui-bundle-${{ env.TAG_NAME }}.tar.gz
+      - name: Upload bundle asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "$TAG_NAME" "design-first-ui-bundle-${TAG_NAME}.tar.gz" --clobber
