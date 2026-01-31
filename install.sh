@@ -17,7 +17,7 @@ Usage: install.sh [options]
 
 Options:
   --version vX.Y.Z   Install a specific version
-  --dir PATH         Target install directory (default: .design-first-ui)
+  --dir PATH         Target install directory (default: .agent)
   --update           Reinstall over existing bundle
   --force            Overwrite without prompt
   --uninstall         Remove installed bundle

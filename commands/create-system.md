@@ -15,7 +15,6 @@ design/system/
   01_canvas_system.md
   02_ui_tokens.md
   02a_navigation_map.md
-  02a_navigation_map.mmd
 ```
 
 ## File templates
@@ -45,11 +44,6 @@ design/system/
 - Flow connections
 - Authenticated vs unauthenticated paths
 - Every navigable use case (including error, empty, and edge flows)
-
-### 02a_navigation_map.mmd
-
-- Mermaid flowchart source
-- Uses WCAG-compliant colors
 
 ## Notes
 
