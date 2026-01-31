@@ -42,6 +42,7 @@ Screens inherit the system; they do not redefine it.
 - Screens inherit the system; they do not redefine it.
 - Overlays and modals are designed inside the parent screen’s 03–06 artifacts.
 - Only navigable full screens get a dedicated per-screen folder with 03–06.
+- “Navigable full screen” means a full-page/view node in the navigation map, not an overlay state.
 
 ## Change classification
 

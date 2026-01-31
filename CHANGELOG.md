@@ -18,3 +18,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.3] - 2026-01-31
 
 - Clarify overlays/modals vs full screens and step 05 layout rules
+
+## [0.0.4] - 2026-01-31
+
+- Define “navigable full screen” as a full-page nav map node
