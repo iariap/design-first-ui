@@ -32,6 +32,8 @@ These rules define a system-first, design-first workflow that must be followed f
 - Fix errors upstream, never in the final mock.
 - Use tokens only. No arbitrary values.
 - The final UI mock must be implementable without interpretation.
+- Overlays and modals are designed inside the parent screen’s 03–06 artifacts; only navigable full screens get their own per-screen folder.
+- Step 05 does not change wireframe layout; applying canvas breakpoint/responsive rules is allowed.
 
 ## Change classification
 

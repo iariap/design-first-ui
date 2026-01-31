@@ -15,6 +15,7 @@ The navigation map defines the global flow between screens.
 - Entry points and exits
 - Authenticated vs unauthenticated flows
 - Every navigable use case (including error, empty, and edge flows)
+- Only nodes that are full screens get a per-screen 03–06 folder; overlay/modal states are documented in the parent screen’s artifacts.
 
 ## Output format
 

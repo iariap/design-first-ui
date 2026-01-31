@@ -14,3 +14,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.2] - 2026-01-31
 
 - Enforce strict propagation order (03 → 04 → 05 → 06 → implementation)
+
+## [0.0.3] - 2026-01-31
+
+- Clarify overlays/modals vs full screens and step 05 layout rules

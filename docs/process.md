@@ -27,6 +27,7 @@ Screens inherit the system; they do not redefine it.
 3) `05_canvas_applied.md`
    - Apply canvas system
    - No layout changes
+   - No wireframe layout changes; applying canvas breakpoint/responsive rules here is allowed
 
 4) `06_ui_mock.md`
    - Static UI mock description
@@ -39,6 +40,8 @@ Screens inherit the system; they do not redefine it.
 - Do not duplicate global artifacts in screen files.
 - Fix errors upstream, never in the final mock.
 - Screens inherit the system; they do not redefine it.
+- Overlays and modals are designed inside the parent screen’s 03–06 artifacts.
+- Only navigable full screens get a dedicated per-screen folder with 03–06.
 
 ## Change classification
 
