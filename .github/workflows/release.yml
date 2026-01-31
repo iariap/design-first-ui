@@ -30,6 +30,14 @@ jobs:
           tar -czf "design-first-ui-bundle-${TAG_NAME}.tar.gz" \
             rules commands skills docs
 
+      - name: Ensure release exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if ! gh release view "$TAG_NAME" >/dev/null 2>&1; then
+            gh release create "$TAG_NAME" --title "$TAG_NAME" --notes ""
+          fi
+
       - name: Upload bundle asset
         env:
           GH_TOKEN: ${{ github.token }}
