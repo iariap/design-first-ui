@@ -11,3 +11,7 @@ All notable changes to this project will be documented in this file.
 - SVG UI mock rendering command and refresh rules
 - Example LLM interaction flow
 - Default install directory set to `.agent`
+
+## [0.0.2] - 2026-01-31
+
+- Require navigation map to include every navigable use case
