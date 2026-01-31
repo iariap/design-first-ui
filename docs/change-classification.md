@@ -16,7 +16,11 @@ Classification and propagation are internal steps; the user only describes the i
 - Overlapping elements: usually a structure or layout issue, fix in `03_structure.md` or `04_wireframe.md`.
 - Wrong spacing scale: system issue, fix in `02_ui_tokens.md`.
 - Canvas mapping mismatch: fix in `05_canvas_applied.md`.
-- Behavior change (e.g., share dialog vs clipboard, new toast message): update `03_structure.md` (primary interactions) and `06_ui_mock.md` before implementation.
+- Behavior change (e.g., share dialog vs clipboard, new toast message): update `03_structure.md` (primary interactions) first; then propagate in order through `04_wireframe.md`, `05_canvas_applied.md`, and `06_ui_mock.md`; then implement. Do not skip 04 or 05; do not implement before 06 is updated.
+
+## Propagation order
+
+Always update in artifact order: 03 → 04 → 05 → 06 → implementation. Never edit a downstream artifact before its immediate upstream is updated.
 
 ## Rule of thumb
 

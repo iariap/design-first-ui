@@ -55,3 +55,10 @@ design/screens/<screen>/
 
 - Ensure `01_canvas_system.md` and `02_ui_tokens.md` exist before scaffolding screens.
 - Do not define tokens inside screen files.
+
+## When updating an existing screen
+
+- Classify the change (structure, layout, canvas, mock).
+- Update the earliest affected artifact (03, 04, 05, or 06).
+- Then update each downstream artifact in order (04 → 05 → 06).
+- Implement only after 06 is updated.

@@ -60,6 +60,18 @@ The change is not complete until every downstream artifact is updated.
 
 Behavior changes are part of the spec. If user-visible behavior changes (flows, mechanisms, toasts, dialogs), classify it and update upstream artifacts (structure/mock) before implementation.
 
+## Propagation order
+
+When changing or adding behavior or layout:
+
+1. Classify where the change belongs (system, structure, layout, canvas mapping, or mock).
+2. Update the **earliest** affected artifact first (e.g. 03 for behavior/structure).
+3. Then update the **next** artifact downstream (04, then 05, then 06). Do not skip steps.
+4. Do **not** edit a downstream artifact until its immediate upstream artifact is updated.
+5. Implement (code) only **after** 06_ui_mock.md is updated.
+
+Order: 03 → 04 → 05 → 06 → implementation. One direction only; never update downstream before upstream.
+
 If SVG UI mocks exist, regenerate them after any upstream change.
 
 ## Completion criteria

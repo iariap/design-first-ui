@@ -47,4 +47,6 @@ This process is transparent to the user; they only describe the issue or goal.
 After fixing upstream, update downstream artifacts to keep the chain consistent.
 Do not consider a change complete until every dependent step has been updated.
 
-User-visible behavior changes (flows, mechanisms, toasts, dialogs) must be classified and reflected in structure and mock artifacts before code changes.
+- **Upstream first, then downstream:** When making a change, update artifacts in order: 03 → 04 → 05 → 06 → implementation. Complete each step before editing the next. Do not edit 04 before 03, 05 before 04, 06 before 05, or code before 06.
+
+User-visible behavior changes (flows, mechanisms, toasts, dialogs) must be classified, then reflected in structure (03), then propagated through wireframe (04), canvas applied (05), and mock (06), in that order, before any code changes.

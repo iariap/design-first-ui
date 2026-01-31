@@ -10,3 +10,7 @@ All notable changes to this project will be documented in this file.
 - Navigation map in markdown with embedded Mermaid
 - SVG UI mock rendering command and refresh rules
 - Installer defaults to `.agent` with explicit lock file
+
+## [0.0.2] - 2026-01-31
+
+- Enforce strict propagation order (03 → 04 → 05 → 06 → implementation)
