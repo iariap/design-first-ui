@@ -64,3 +64,9 @@ design/screens/<screen>/
 - Update the earliest affected artifact (03, 04, 05, or 06).
 - Then update each downstream artifact in order (04 → 05 → 06).
 - Implement only after 06 is updated.
+
+## When adding a new screen
+
+- Update the navigation map first.
+- Scaffold 03 → 04 → 05 → 06 in order.
+- Implement only after 06 is complete.

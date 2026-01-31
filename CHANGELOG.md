@@ -37,3 +37,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.7] - 2026-01-31
 
 - Require UI/render-first implementation order for visible features
+
+## [0.0.8] - 2026-01-31
+
+- Enforce design-first chain for screens and reference .agent process

@@ -65,6 +65,18 @@ Before implementing any new screen, flow, or UI feature (new section, component,
 
 Then implement in code so it matches the updated design. If a design folder exists (e.g. design/screens/, design/system/), treat those files as the source of truth for UI.
 
+## Screens are mandatory design-first
+
+When adding or changing a navigable full screen, the full design chain must exist before implementation:
+
+03_structure.md → 04_wireframe.md → 05_canvas_applied.md → 06_ui_mock.md → implementation
+
+Do not implement screen UI until 06_ui_mock.md exists for that screen.
+
+## Where the process lives
+
+If the repository contains `.agent/docs/process.md` and `.agent/rules/design-first-ui.md`, treat them as authoritative. Use `.agent/commands/create-screen.md` for screen creation tasks.
+
 ## Implementation order (UI first)
 
 For any feature with visible UI (screens, components, charts, forms):

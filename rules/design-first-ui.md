@@ -37,6 +37,7 @@ These rules define a system-first, design-first workflow that must be followed f
 - Prefer components from the component inventory; add new ones only when reusable.
 - Treat design docs as source of truth. Do not add UI features in code without updating upstream artifacts first.
 - When implementing visible UI features, build UI/render first (with mock data if needed), then add data layer and business logic.
+- When adding or changing a screen, follow the design-first chain: 03 → 04 → 05 → 06 → implementation. Do not implement UI for a screen until 04/05/06 exist. See .agent/docs/process.md.
 
 ## Change classification
 
