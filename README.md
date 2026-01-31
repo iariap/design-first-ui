@@ -59,7 +59,7 @@ Example prompts (plain language):
 
 Start with thorough product discovery so the system is grounded in real needs.
 
-Suggested kickoff steps:
+Suggested kickoff steps (outside this bundle):
 
 - Research the problem space thoroughly (competitors, alternatives, adjacent tools)
 - Gather pain points thoroughly (forums, reviews, support tickets, interviews)
@@ -70,6 +70,8 @@ Outcome:
 
 - A clear problem statement and persona to guide the canvas, tokens, and navigation map
 - Evidence-backed insights that justify the system decisions
+
+Note: research skills and tools are not part of this bundle.
 
 ## Change classification
 
@@ -93,6 +95,7 @@ Suggested commands:
 - `commands/create-system.md`
 - `commands/validate-system.md`
 - `commands/render-navigation-mermaid.md`
+- `commands/render-ui-mocks-svg.md`
 
 Suggested skills:
 
