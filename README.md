@@ -110,13 +110,14 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 - Create `01_canvas_system.md` (layout constraints, grid, breakpoints)
 - Create `02_ui_tokens.md` (spacing, typography, color, etc.)
 - Create `02a_navigation_map.md` (screen flow and relationships)
+- Create `02a_navigation_map.mmd` (Mermaid diagram with WCAG-compliant colors)
 - These are authoritative; screens inherit them
 
 Suggested commands:
 
 - `commands/create-system.md`
 - `commands/validate-system.md`
-- `commands/render-navigation-svg.md`
+- `commands/render-navigation-mermaid.md`
 
 Suggested skills:
 
