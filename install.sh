@@ -152,6 +152,13 @@ do_install() {
   TMPDIR=$(mktemp -d)
   ARCHIVE_PATH="$TMPDIR/$ARCHIVE_NAME"
 
+  ASSET_URL=$(curl -fsSL "https://api.github.com/repos/${REPO}/releases/tags/${VERSION}" \
+    | awk -v name="$ARCHIVE_NAME" -F '"' '$2=="browser_download_url" && $4~name {print $4; exit}')
+
+  if [ -n "$ASSET_URL" ]; then
+    DOWNLOAD_URL="$ASSET_URL"
+  fi
+
   if command -v curl >/dev/null 2>&1; then
     curl -fsSL -o "$ARCHIVE_PATH" "$DOWNLOAD_URL"
   elif command -v wget >/dev/null 2>&1; then
