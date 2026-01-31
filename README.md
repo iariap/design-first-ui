@@ -52,6 +52,60 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 - Skills to guide each step in the workflow
 - Docs that define the system, tokens, and QA bar
 
+## Process summary
+
+- Global artifacts (required before screens): `01_canvas_system.md`, `02_ui_tokens.md`
+- Screen workflow (in order): `03_structure.md`, `04_wireframe.md`, `05_canvas_applied.md`, `06_ui_mock.md`
+
+## Change classification
+
+- Classify every change request before edits.
+- Fix the earliest upstream artifact that caused the issue.
+- Propagate changes downstream to keep all steps consistent.
+
+## Full process
+
+### 1) Define the system (global, required)
+
+- Create `01_canvas_system.md` (layout constraints, grid, breakpoints)
+- Create `02_ui_tokens.md` (spacing, typography, color, etc.)
+- These are authoritative; screens inherit them
+
+Suggested commands:
+
+- `commands/create-system.md`
+- `commands/validate-system.md`
+
+Suggested skills:
+
+- `skills/design-first.canvas-system.md`
+- `skills/design-first.tokens.md`
+
+### 2) Build each screen (in order)
+
+1. `03_structure.md` — intent, hierarchy, and content blocks
+2. `04_wireframe.md` — layout only, no visuals
+3. `05_canvas_applied.md` — map layout to the canvas system
+4. `06_ui_mock.md` — final visual description using tokens only
+
+Suggested commands:
+
+- `commands/create-screen.md`
+- `commands/validate-screen.md`
+
+Suggested skills:
+
+- `skills/design-first.structure.md`
+- `skills/design-first.wireframe.md`
+- `skills/design-first.canvas-applied.md`
+- `skills/design-first.ui-mock.md`
+
+### 3) Classify every change request
+
+- Use `commands/classify-change.md` and `docs/change-classification.md`
+- Fix the earliest artifact that introduced the issue
+- Propagate the update downstream to keep artifacts consistent
+
 ## Release artifacts
 
 Releases contain only the installable folders: `rules/`, `commands/`, `skills/`, `docs/`.
