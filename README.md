@@ -115,7 +115,7 @@ Use this flow to keep the system consistent and avoid manual patches.
 1. Ask the LLM to scaffold the screen files.
 2. Ask the LLM to fill each step in order.
 
-Example prompts (explicit reference for reliability):
+Example prompts (plain language is fine; explicit references improve reliability):
 
 - "Use `commands/create-screen.md` to scaffold `design/screens/checkout/`"
 - "Using `skills/design-first.structure.md`, write `03_structure.md` for checkout"
@@ -129,7 +129,7 @@ Example prompts (explicit reference for reliability):
 2. Fix the earliest upstream artifact.
 3. Propagate downstream updates.
 
-Example prompts (explicit reference for reliability):
+Example prompts (plain language is fine; explicit references improve reliability):
 
 - "Classify this issue using `commands/classify-change.md`: buttons overlap on mobile"
 - "Update `04_wireframe.md` to resolve the overlap"
@@ -141,7 +141,7 @@ Example prompts (explicit reference for reliability):
 2. Update `02_ui_tokens.md`.
 3. Propagate downstream across screens.
 
-Example prompts (explicit reference for reliability):
+Example prompts (plain language is fine; explicit references improve reliability):
 
 - "Classify this change: increase base spacing from 4px to 5px"
 - "Update `02_ui_tokens.md` and summarize impact"
