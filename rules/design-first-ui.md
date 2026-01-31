@@ -36,6 +36,7 @@ These rules define a system-first, design-first workflow that must be followed f
 - Step 05 does not change wireframe layout; applying canvas breakpoint/responsive rules is allowed.
 - Prefer components from the component inventory; add new ones only when reusable.
 - Treat design docs as source of truth. Do not add UI features in code without updating upstream artifacts first.
+- When implementing visible UI features, build UI/render first (with mock data if needed), then add data layer and business logic.
 
 ## Change classification
 

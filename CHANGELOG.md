@@ -33,3 +33,7 @@ All notable changes to this project will be documented in this file.
 ## [0.0.6] - 2026-01-31
 
 - Require upstream design artifacts before implementation
+
+## [0.0.7] - 2026-01-31
+
+- Require UI/render-first implementation order for visible features

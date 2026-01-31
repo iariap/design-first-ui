@@ -30,6 +30,8 @@ Always update in artifact order: 03 → 04 → 05 → 06 → implementation. Nev
 
 If a UI feature exists in code but not in design docs, treat it as a process violation and update upstream artifacts before implementation changes proceed.
 
+Implementation order for visible UI features: UI/render first (mock data ok), then data and business logic.
+
 ## Rule of thumb
 
 Always fix the earliest artifact that introduced the issue.

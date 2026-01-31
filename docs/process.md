@@ -65,6 +65,15 @@ Before implementing any new screen, flow, or UI feature (new section, component,
 
 Then implement in code so it matches the updated design. If a design folder exists (e.g. design/screens/, design/system/), treat those files as the source of truth for UI.
 
+## Implementation order (UI first)
+
+For any feature with visible UI (screens, components, charts, forms):
+
+1. Define and implement the UI/render layer first (structure, layout, visual display). Use mock data if needed.
+2. Then add real data, APIs, and business logic to power the UI.
+
+Do not implement data structures or business logic before the UI/render step.
+
 ## Step acceptance criteria
 
 ### 03_structure.md (done when)
