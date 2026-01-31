@@ -143,7 +143,11 @@ do_install() {
   fi
 
   if [ "$UPDATE" -eq 1 ]; then
-    do_uninstall
+    if [ -f "$TARGET_DIR/.lock" ]; then
+      do_uninstall
+    else
+      UPDATE=0
+    fi
   fi
 
   ARCHIVE_NAME="${ASSET_PREFIX}${VERSION}.tar.gz"
