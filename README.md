@@ -134,9 +134,8 @@ Example prompts (plain language):
 
 Example prompts (plain language):
 
-- "Classify this issue: buttons overlap on mobile"
-- "Update 04_wireframe.md to resolve the overlap"
-- "Propagate updates to 05_canvas_applied.md and 06_ui_mock.md"
+- "Buttons overlap on mobile"
+- "Fix the overlap and propose the plan you will apply"
 
 ### C) Adjust the spacing scale
 
@@ -146,9 +145,8 @@ Example prompts (plain language):
 
 Example prompts (plain language):
 
-- "Classify this change: increase base spacing from 4px to 5px"
-- "Update 02_ui_tokens.md and summarize impact"
-- "Propagate token changes to all affected screens' 05_canvas_applied.md and 06_ui_mock.md"
+- "Increase base spacing from 4px to 5px"
+- "Apply the change and propose the plan you will follow"
 
 ## Release artifacts
 
