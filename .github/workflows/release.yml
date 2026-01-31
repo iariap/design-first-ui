@@ -25,6 +25,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Delete draft release for tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          draft_id=$(gh api repos/${{ github.repository }}/releases \
+            --jq ".[] | select(.draft==true and .tag_name==\"${TAG_NAME}\") | .id" | head -n 1)
+          if [ -n "$draft_id" ]; then
+            gh api -X DELETE repos/${{ github.repository }}/releases/$draft_id
+          fi
+
       - name: Create bundle archive
         run: |
           tar -czf "design-first-ui-bundle-${TAG_NAME}.tar.gz" \
