@@ -16,6 +16,7 @@ Generate SVG UI mocks for all screens using the design system.
 ## Notes
 
 - Use the system tokens for all values.
+- Use only the system typography, spacing, colors, and borders.
 - Do not invent styles outside the system.
 - Keep SVGs buildable and consistent with the mocks.
 - If SVG mocks exist, regenerate them after any upstream change.
