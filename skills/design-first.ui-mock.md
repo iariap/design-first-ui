@@ -1,3 +1,8 @@
+---
+description: "Write the 06_ui_mock.md token-constrained UI description"
+alwaysApply: false
+---
+
 # Skill: design-first.ui-mock
 
 ## Goal

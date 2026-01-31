@@ -1,3 +1,8 @@
+---
+description: "Check a screen has all required steps and follows workflow order"
+alwaysApply: false
+---
+
 # Command: validate-screen
 
 Validate that a screen follows the design-first workflow and system constraints.

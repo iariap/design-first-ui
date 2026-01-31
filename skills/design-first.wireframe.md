@@ -1,3 +1,8 @@
+---
+description: "Write the 04_wireframe.md layout-only artifact"
+alwaysApply: false
+---
+
 # Skill: design-first.wireframe
 
 ## Goal

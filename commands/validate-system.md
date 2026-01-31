@@ -1,3 +1,8 @@
+---
+description: "Verify global system artifacts exist and are complete"
+alwaysApply: false
+---
+
 # Command: validate-system
 
 Validate that the global system artifacts exist and are consistent.

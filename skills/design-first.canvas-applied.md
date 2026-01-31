@@ -1,3 +1,8 @@
+---
+description: "Map the wireframe to the canvas system in 05_canvas_applied.md"
+alwaysApply: false
+---
+
 # Skill: design-first.canvas-applied
 
 ## Goal

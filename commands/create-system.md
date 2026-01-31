@@ -1,3 +1,8 @@
+---
+description: "Create the global system artifacts (01/02/02a) before screens"
+alwaysApply: false
+---
+
 # Command: create-system
 
 Scaffold the global artifacts required before any screen work.
@@ -44,6 +49,7 @@ design/system/
 - Flow connections
 - Authenticated vs unauthenticated paths
 - Every navigable use case (including error, empty, and edge flows)
+- Mermaid flowchart in a fenced code block (e.g. ` ```mermaid `) inside this file only. Do **not** create `02a_navigation_map.mmd` or any separate file for the diagram.
 
 ## Notes
 

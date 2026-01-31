@@ -1,3 +1,8 @@
+---
+description: "Classify a change request and identify upstream and downstream artifacts"
+alwaysApply: false
+---
+
 # Command: classify-change
 
 Classify a change request and point to the correct artifact to edit.

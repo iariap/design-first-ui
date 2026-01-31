@@ -1,3 +1,8 @@
+---
+description: "Define the global canvas system in 01_canvas_system.md"
+alwaysApply: false
+---
+
 # Skill: design-first.canvas-system
 
 ## Goal

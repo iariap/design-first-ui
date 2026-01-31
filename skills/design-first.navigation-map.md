@@ -1,3 +1,8 @@
+---
+description: "Create 02a_navigation_map.md with flows and Mermaid diagram"
+alwaysApply: false
+---
+
 # Skill: design-first.navigation-map
 
 ## Goal

@@ -1,3 +1,8 @@
+---
+description: "Render SVG UI mocks for all screens from 06_ui_mock.md"
+alwaysApply: false
+---
+
 # Command: render-ui-mocks-svg
 
 Generate SVG UI mocks for all screens using the design system.

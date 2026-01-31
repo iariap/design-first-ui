@@ -1,3 +1,8 @@
+---
+description: "Create the per-screen workflow files (03-06) in the correct structure"
+alwaysApply: false
+---
+
 # Command: create-screen
 
 Scaffold the required files for a new screen following the design-first workflow.

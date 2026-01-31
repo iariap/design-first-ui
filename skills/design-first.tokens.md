@@ -1,3 +1,8 @@
+---
+description: "Define the global token system in 02_ui_tokens.md"
+alwaysApply: false
+---
+
 # Skill: design-first.tokens
 
 ## Goal

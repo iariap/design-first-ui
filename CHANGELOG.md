@@ -35,3 +35,8 @@ All notable changes to this project will be documented in this file.
 
 - Rename lock file to `.design-first-ui.lock`
 - Allow install into existing target directory
+
+## [0.0.7] - 2026-01-31
+
+- Add Cursor metadata headers to rules, commands, and skills
+- Improve descriptions for better automatic selection

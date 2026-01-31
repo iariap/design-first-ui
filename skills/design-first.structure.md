@@ -1,3 +1,8 @@
+---
+description: "Write the 03_structure.md artifact for a screen"
+alwaysApply: false
+---
+
 # Skill: design-first.structure
 
 ## Goal

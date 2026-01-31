@@ -1,3 +1,8 @@
+---
+description: "Provide the completion checklist for a finished screen"
+alwaysApply: false
+---
+
 # Command: process-checklist
 
 Print the quality gate for a completed screen.

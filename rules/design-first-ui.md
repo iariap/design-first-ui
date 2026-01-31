@@ -1,3 +1,8 @@
+---
+description: "Enforce the design-first UI workflow, artifact order, and change propagation rules"
+alwaysApply: false
+---
+
 # Design-First UI Rules
 
 These rules define a system-first, design-first workflow that must be followed for every UI screen.
