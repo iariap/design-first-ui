@@ -2,6 +2,45 @@
 
 Design-first UI process packaged as IDE-agnostic skills, commands, rules, and docs.
 
+## Example flow (LLM interaction)
+
+Use this flow to keep the system consistent and avoid manual patches.
+
+### A) Start a new screen
+
+1. > scaffold screen files
+2. > fill each step in order
+
+Example prompts (plain language):
+
+- "Scaffold the screen files for checkout under design/screens/checkout/"
+- "Write 03_structure.md for checkout"
+- "Write 04_wireframe.md for checkout"
+- "Write 05_canvas_applied.md for checkout"
+- "Write 06_ui_mock.md for checkout"
+
+### B) Fix a layout issue (overlap)
+
+1. > describe the issue
+2. > system classifies and fixes upstream
+3. > system propagates downstream updates
+
+Example prompts (plain language):
+
+- "Buttons overlap on mobile"
+- "Fix the overlap and propose the plan you will apply"
+
+### C) Adjust the spacing scale
+
+1. > describe the change
+2. > system updates tokens
+3. > system propagates downstream across screens
+
+Example prompts (plain language):
+
+- "Increase base spacing from 4px to 5px"
+- "Apply the change and propose the plan you will follow"
+
 ## Install
 
 ```sh
@@ -109,44 +148,6 @@ Suggested skills:
 - Classification and propagation are internal steps.
 - The user only needs to describe the problem or desired change.
 
-## Example flow (LLM interaction)
-
-Use this flow to keep the system consistent and avoid manual patches.
-
-### A) Start a new screen
-
-1. > scaffold screen files
-2. > fill each step in order
-
-Example prompts (plain language):
-
-- "Scaffold the screen files for checkout under design/screens/checkout/"
-- "Write 03_structure.md for checkout"
-- "Write 04_wireframe.md for checkout"
-- "Write 05_canvas_applied.md for checkout"
-- "Write 06_ui_mock.md for checkout"
-
-### B) Fix a layout issue (overlap)
-
-1. > describe the issue
-2. > system classifies and fixes upstream
-3. > system propagates downstream updates
-
-Example prompts (plain language):
-
-- "Buttons overlap on mobile"
-- "Fix the overlap and propose the plan you will apply"
-
-### C) Adjust the spacing scale
-
-1. > describe the change
-2. > system updates tokens
-3. > system propagates downstream across screens
-
-Example prompts (plain language):
-
-- "Increase base spacing from 4px to 5px"
-- "Apply the change and propose the plan you will follow"
 
 ## Release artifacts
 
