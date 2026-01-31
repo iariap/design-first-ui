@@ -170,5 +170,5 @@ curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install
   commands/
   skills/
   docs/
-  .lock
+  .design-first-ui.lock
 ```

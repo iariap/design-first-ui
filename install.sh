@@ -95,13 +95,13 @@ parse_args() {
 }
 
 read_lock_files() {
-  LOCK_FILE="$TARGET_DIR/.lock"
+  LOCK_FILE="$TARGET_DIR/.design-first-ui.lock"
   [ -f "$LOCK_FILE" ] || return 1
   awk 'found && $0 != "" {print}' "$LOCK_FILE"
 }
 
 do_uninstall() {
-  LOCK_FILE="$TARGET_DIR/.lock"
+  LOCK_FILE="$TARGET_DIR/.design-first-ui.lock"
   if [ ! -f "$LOCK_FILE" ]; then
     if [ "$FORCE" -eq 1 ]; then
       rm -rf "$TARGET_DIR"
@@ -143,7 +143,7 @@ do_install() {
   fi
 
   if [ "$UPDATE" -eq 1 ]; then
-    if [ -f "$TARGET_DIR/.lock" ]; then
+  if [ -f "$TARGET_DIR/.design-first-ui.lock" ]; then
       do_uninstall
     else
       UPDATE=0
@@ -180,7 +180,7 @@ do_install() {
   INSTALLED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
   FILE_LIST=$(tar -tzf "$ARCHIVE_PATH" | awk 'NF && $0 !~ /\/$/')
 
-  LOCK_FILE="$TARGET_DIR/.lock"
+  LOCK_FILE="$TARGET_DIR/.design-first-ui.lock"
   {
     echo "version=$VERSION"
     echo "checksum=$CHECKSUM"
