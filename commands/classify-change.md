@@ -11,6 +11,11 @@ Classify a change request and point to the correct artifact to edit.
 - Classification label
 - Target file to update
 - Rationale for choosing the earliest artifact
+- Downstream update list (all dependent steps to update after the fix)
+
+## Notes
+
+- Classification and propagation are internal steps; the user only describes the issue.
 
 ## Classification map
 

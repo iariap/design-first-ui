@@ -1,6 +1,7 @@
 # Change Classification
 
 All change requests must be classified before edits. This prevents patching the final mock and keeps the system consistent.
+Classification and propagation are internal steps; the user only describes the issue.
 
 ## Classification map
 
@@ -21,3 +22,4 @@ All change requests must be classified before edits. This prevents patching the 
 Always fix the earliest artifact that introduced the issue.
 
 After fixing upstream, update downstream artifacts so the final mock stays consistent.
+The change is not done until every dependent artifact is updated.

@@ -42,6 +42,7 @@ Screens inherit the system; they do not redefine it.
 ## Change classification
 
 All change requests must be classified before any edits are made. Manual edits to final mock files are not allowed because they hide the root cause.
+Classification and propagation are internal steps and should be transparent to the user.
 
 Classify the change by where the fix belongs:
 
@@ -54,6 +55,7 @@ Classify the change by where the fix belongs:
 If a UI defect is observed (e.g., overlap, truncation, spacing), trace it upstream and fix the earliest artifact that caused it.
 
 After fixing upstream, propagate the change downstream so all dependent artifacts stay consistent.
+The change is not complete until every downstream artifact is updated.
 
 ## Completion criteria
 

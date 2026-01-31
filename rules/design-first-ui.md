@@ -30,6 +30,7 @@ These rules define a system-first, design-first workflow that must be followed f
 ## Change classification
 
 Every change request must be classified before edits. Do not edit files manually in the final mock to patch issues.
+This process is transparent to the user; they only describe the issue or goal.
 
 - If the issue is systemic, update `01_canvas_system.md` or `02_ui_tokens.md`.
 - If the issue is structural, update `03_structure.md`.
@@ -38,3 +39,4 @@ Every change request must be classified before edits. Do not edit files manually
 - Only update `06_ui_mock.md` when all upstream artifacts are correct.
 
 After fixing upstream, update downstream artifacts to keep the chain consistent.
+Do not consider a change complete until every dependent step has been updated.

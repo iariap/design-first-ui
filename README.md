@@ -61,7 +61,8 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 
 - Classify every change request before edits.
 - Fix the earliest upstream artifact that caused the issue.
-- Propagate changes downstream to keep all steps consistent.
+- Propagate the fix downstream through every dependent step to keep all artifacts consistent.
+- This should be transparent for the user: describe the issue, the system handles the rest.
 
 ## Full process
 
@@ -102,9 +103,8 @@ Suggested skills:
 
 ### 3) Classify every change request
 
-- Use `commands/classify-change.md` and `docs/change-classification.md`
-- Fix the earliest artifact that introduced the issue
-- Propagate the update downstream to keep artifacts consistent
+- Classification and propagation are internal steps.
+- The user only needs to describe the problem or desired change.
 
 ## Example flow (LLM interaction)
 
@@ -112,8 +112,8 @@ Use this flow to keep the system consistent and avoid manual patches.
 
 ### A) Start a new screen
 
-1. Ask the LLM to scaffold the screen files.
-2. Ask the LLM to fill each step in order.
+1. > scaffold screen files
+2. > fill each step in order
 
 Example prompts (plain language):
 
@@ -125,9 +125,9 @@ Example prompts (plain language):
 
 ### B) Fix a layout issue (overlap)
 
-1. Ask the LLM to classify the change.
-2. Fix the earliest upstream artifact.
-3. Propagate downstream updates.
+1. > describe the issue
+2. > system classifies and fixes upstream
+3. > system propagates downstream updates
 
 Example prompts (plain language):
 
@@ -137,9 +137,9 @@ Example prompts (plain language):
 
 ### C) Adjust the spacing scale
 
-1. Classify as a system change.
-2. Update `02_ui_tokens.md`.
-3. Propagate downstream across screens.
+1. > describe the change
+2. > system updates tokens
+3. > system propagates downstream across screens
 
 Example prompts (plain language):
 

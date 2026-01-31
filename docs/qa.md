@@ -15,3 +15,4 @@
 - No upstream fixes done in final mock
 - Final mock is implementable without interpretation
 - Change requests are classified and resolved upstream
+- Downstream artifacts are updated after upstream changes
