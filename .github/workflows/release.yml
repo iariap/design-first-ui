@@ -1,0 +1,27 @@
+name: Release Bundle
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create bundle archive
+        run: |
+          tar -czf "design-first-ui-bundle-${{ github.ref_name }}.tar.gz" \
+            rules commands skills docs
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            design-first-ui-bundle-${{ github.ref_name }}.tar.gz
