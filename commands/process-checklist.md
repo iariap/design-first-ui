@@ -4,7 +4,7 @@ Print the quality gate for a completed screen.
 
 ## Quality gate
 
-- Global artifacts exist and are referenced
+- 01_canvas_system.md and 02_ui_tokens.md exist and are referenced
 - Structure is clear and complete
 - Wireframe is layout-only
 - Canvas applied without layout drift

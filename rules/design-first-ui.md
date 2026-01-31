@@ -8,6 +8,11 @@ These rules define a system-first, design-first workflow that must be followed f
 - The system defines the canvas, tokens, and constraints. Screens inherit it.
 - Do not redefine global artifacts inside a screen.
 
+## Global artifacts (in order)
+
+1) 01_canvas_system.md
+2) 02_ui_tokens.md
+
 ## Per-screen workflow (in order)
 
 1) 03_structure.md

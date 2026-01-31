@@ -2,8 +2,8 @@
 
 ## Global
 
-- Canvas system is defined and current
-- Token set is defined and current
+- 01_canvas_system.md exists and is current
+- 02_ui_tokens.md exists and is current
 - Global artifacts are referenced, not duplicated
 
 ## Per-screen

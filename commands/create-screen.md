@@ -48,5 +48,5 @@ design/screens/<screen>/
 
 ## Notes
 
-- Ensure the global system exists before scaffolding screens.
+- Ensure `01_canvas_system.md` and `02_ui_tokens.md` exist before scaffolding screens.
 - Do not define tokens inside screen files.

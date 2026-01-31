@@ -6,8 +6,8 @@ This process defines how UI is designed, refined, and implemented using a system
 
 These must exist before any screen work begins:
 
-- `docs/canvas.md`
-- `docs/tokens.md`
+- `01_canvas_system.md`
+- `02_ui_tokens.md`
 
 Screens inherit the system; they do not redefine it.
 
