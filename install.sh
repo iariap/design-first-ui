@@ -4,7 +4,7 @@ set -eu
 REPO="iariap/design-first-ui"
 HOST_DEFAULT="https://github.com/${REPO}/releases/download"
 ASSET_PREFIX="design-first-ui-bundle-"
-TARGET_DIR=".design-first-ui"
+TARGET_DIR=".agent"
 VERSION=""
 UPDATE=0
 FORCE=0

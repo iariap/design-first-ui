@@ -138,6 +138,8 @@ Releases contain only the installable folders: `rules/`, `commands/`, `skills/`,
 curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install.sh | sh
 ```
 
+Default install directory: `.agent`
+
 ### Pin a version
 
 ```sh
@@ -147,7 +149,7 @@ curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install
 ### Custom install directory
 
 ```sh
-curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install.sh | sh -s -- --dir .design-first-ui
+curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install.sh | sh -s -- --dir .agent
 ```
 
 ### Update
@@ -165,7 +167,7 @@ curl -fsSL https://github.com/iariap/design-first-ui/raw/refs/heads/main/install
 ## Installed layout
 
 ```
-.design-first-ui/
+.agent/
   rules/
   commands/
   skills/
