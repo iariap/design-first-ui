@@ -138,12 +138,8 @@ do_install() {
     *) VERSION="v$VERSION" ;;
   esac
 
-  if [ -d "$TARGET_DIR" ] && [ "$UPDATE" -eq 0 ] && [ "$FORCE" -eq 0 ]; then
-    fail "Target directory exists. Use --update or --force."
-  fi
-
   if [ "$UPDATE" -eq 1 ]; then
-  if [ -f "$TARGET_DIR/.design-first-ui.lock" ]; then
+    if [ -f "$TARGET_DIR/.design-first-ui.lock" ]; then
       do_uninstall
     else
       UPDATE=0
