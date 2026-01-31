@@ -4,6 +4,13 @@ on:
   push:
     tags:
       - "v*.*.*"
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g., v0.0.7)"
+        required: true
 
 permissions:
   contents: write
@@ -11,17 +18,20 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      TAG_NAME: ${{ github.event.release.tag_name || github.event.inputs.tag || github.ref_name }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Create bundle archive
         run: |
-          tar -czf "design-first-ui-bundle-${{ github.ref_name }}.tar.gz" \
+          tar -czf "design-first-ui-bundle-${TAG_NAME}.tar.gz" \
             rules commands skills docs
 
       - name: Create GitHub release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ env.TAG_NAME }}
           files: |
-            design-first-ui-bundle-${{ github.ref_name }}.tar.gz
+            design-first-ui-bundle-${{ env.TAG_NAME }}.tar.gz
