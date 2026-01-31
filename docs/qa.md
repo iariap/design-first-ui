@@ -4,6 +4,7 @@
 
 - 01_canvas_system.md exists and is current
 - 02_ui_tokens.md exists and is current
+- 02a_navigation_map.md exists and is current
 - Global artifacts are referenced, not duplicated
 
 ## Per-screen

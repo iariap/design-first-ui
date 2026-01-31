@@ -14,6 +14,7 @@ Create the global artifacts:
 design/system/
   01_canvas_system.md
   02_ui_tokens.md
+  02a_navigation_map.md
 ```
 
 ## File templates
@@ -36,6 +37,12 @@ design/system/
 - Layout
 - Animation
 - Z-index
+
+### 02a_navigation_map.md
+
+- Global screen list
+- Flow connections
+- Authenticated vs unauthenticated paths
 
 ## Notes
 

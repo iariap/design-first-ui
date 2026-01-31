@@ -54,7 +54,7 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 
 ## Process summary
 
-- Global artifacts (required before screens): `01_canvas_system.md`, `02_ui_tokens.md`
+- Global artifacts (required before screens): `01_canvas_system.md`, `02_ui_tokens.md`, `02a_navigation_map.md`
 - Screen workflow (in order): `03_structure.md`, `04_wireframe.md`, `05_canvas_applied.md`, `06_ui_mock.md`
 
 ## Change classification
@@ -70,17 +70,20 @@ curl -fsSL https://raw.githubusercontent.com/iariap/design-first-ui/main/install
 
 - Create `01_canvas_system.md` (layout constraints, grid, breakpoints)
 - Create `02_ui_tokens.md` (spacing, typography, color, etc.)
+- Create `02a_navigation_map.md` (screen flow and relationships)
 - These are authoritative; screens inherit them
 
 Suggested commands:
 
 - `commands/create-system.md`
 - `commands/validate-system.md`
+- `commands/render-navigation-svg.md`
 
 Suggested skills:
 
 - `skills/design-first.canvas-system.md`
 - `skills/design-first.tokens.md`
+- `skills/design-first.navigation-map.md`
 
 ### 2) Build each screen (in order)
 

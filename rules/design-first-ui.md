@@ -12,6 +12,7 @@ These rules define a system-first, design-first workflow that must be followed f
 
 1) 01_canvas_system.md
 2) 02_ui_tokens.md
+3) 02a_navigation_map.md
 
 ## Per-screen workflow (in order)
 

@@ -8,6 +8,7 @@ These must exist before any screen work begins:
 
 - `01_canvas_system.md`
 - `02_ui_tokens.md`
+- `02a_navigation_map.md`
 
 Screens inherit the system; they do not redefine it.
 
