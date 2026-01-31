@@ -15,3 +15,9 @@ All notable changes to this project will be documented in this file.
 ## [0.0.2] - 2026-01-31
 
 - Require navigation map to include every navigable use case
+
+## [0.0.3] - 2026-01-31
+
+- Make navigation map fully markdown-only
+- Remove navigation map render command
+- Align installer help with `.agent` default
